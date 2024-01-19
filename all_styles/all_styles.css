@@ -227,6 +227,9 @@ a{
     margin-right: 5%;
     box-shadow: 0 0 0 5px ghostwhite;
 }
+iframe{
+    width: 100%;
+}
 /* Footer */
 footer {
     background-color: #D4D4D8;
