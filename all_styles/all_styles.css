@@ -227,9 +227,11 @@ a{
     margin-right: 5%;
     box-shadow: 0 0 0 5px ghostwhite;
 }
-iframe{
-    width: 100%;
-}
+@media(max-width:420px){
+    iframe{
+        width: 300px;
+    }
+    }
 /* Footer */
 footer {
     background-color: #D4D4D8;
