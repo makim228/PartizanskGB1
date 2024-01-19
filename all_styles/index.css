@@ -19,7 +19,17 @@
     box-shadow: 0 0 0 5px ghostwhite;
 }
 .noimg_small{
- width: 300px;
+ width: 250px;
+}
+.main_noimg_div{
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px dashed;
+    border-color:  #686DFF;
+    width: 310px;
+    transition: opacity 0.3s;
+    box-shadow: 0 0 0 5px ghostwhite;
 }
 .main_img_div{
     margin: auto;
