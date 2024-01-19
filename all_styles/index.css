@@ -18,6 +18,9 @@
     max-width: 100%;
     box-shadow: 0 0 0 5px ghostwhite;
 }
+.noimg_small{
+ width: 100%;
+}
 .main_img_div{
     margin: auto;
     text-align: center;
