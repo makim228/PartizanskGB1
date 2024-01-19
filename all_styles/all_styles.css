@@ -81,30 +81,55 @@ a{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.header_name>h1:nth-child(1) {
-    font-size: 14px;
-    line-height: 17px;
-    color: #8585AA;
-    text-transform: uppercase;
-    padding-top: 8px;
-    padding-bottom: 0;
-    margin: 0;
-    font-weight: 900;
+@media(min-width:690px){
+    .header_name>h1:nth-child(1) {
+        font-size: 18px;
+        line-height: 17px;
+        color: #8585AA;
+        text-transform: uppercase;
+        padding-top: 8px;
+        padding-bottom: 0;
+        margin: 0;
+        font-weight: 900;
+    }
+    .header_name>h1:nth-child(2) {
+        font-size: 20px;
+        color: white;
+        line-height: 17px;
+        background-color: #686DFF;
+        padding: 5px;
+        margin: 5px 0 5px 0;
+        text-transform: uppercase;
+        font-weight: 900;
+        margin-bottom: 30px;
+    }
 }
-.header_name>h1:nth-child(2) {
-    font-size: 16px;
-    color: white;
-    line-height: 17px;
-    background-color: #686DFF;
-    padding: 5px;
-    margin: 5px 0 5px 0;
-    text-transform: uppercase;
-    font-weight: 900;
-    margin-bottom: 30px;
+@media(max-width:690px){
+    .header_name>h1:nth-child(1) {
+        font-size: 14px;
+        line-height: 17px;
+        color: #8585AA;
+        text-transform: uppercase;
+        padding-top: 8px;
+        padding-bottom: 0;
+        margin: 0;
+        font-weight: 900;
+    }
+    .header_name>h1:nth-child(2) {
+        font-size: 15px;
+        color: white;
+        line-height: 17px;
+        background-color: #686DFF;
+        padding: 5px;
+        margin: 5px 0 5px 0;
+        text-transform: uppercase;
+        font-weight: 900;
+        margin-bottom: 30px;
+    }
 }
 .header_navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;;
     background-color: #686DFF;
     width: 100%;
 }
@@ -123,7 +148,7 @@ a{
         margin-top: 6px;
         background-color: #682CFF;
         border-radius: 7px 7px 0 0;
-        font-size: 100%;
+        font-size: 12px;
     }
     .header_navigation-link>a {
         color: white;
@@ -134,6 +159,7 @@ a{
         border-radius: 7px 7px 0 0;
         margin-top: 6px;
         padding: 10px 4px;
+        font-size: 12px;
     }
     .header_navigation-link-current>a {
         color: black;
