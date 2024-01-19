@@ -15,20 +15,6 @@
     border: 3px solid;
     border-color:  #686DFF;
     max-height: 195px;
-    max-width: 100%;
-    box-shadow: 0 0 0 5px ghostwhite;
-}
-.noimg_small{
- width: 250px;
-}
-.main_noimg_div{
-    margin: auto;
-    text-align: center;
-    border-radius: 10px;
-    border: 3px dashed;
-    border-color:  #686DFF;
-    width: 310px;
-    transition: opacity 0.3s;
     box-shadow: 0 0 0 5px ghostwhite;
 }
 .main_img_div{
@@ -37,6 +23,7 @@
     border-radius: 10px;
     border: 3px dashed;
     border-color:  #686DFF;
+    width: 78%;
     transition: opacity 0.3s;
     box-shadow: 0 0 0 5px ghostwhite;
 }
@@ -49,7 +36,7 @@
 }
 @media(max-width:800px){
  .img_small{
-    width: 45%;
-    height: 45%;
+    width: 40%;
+    height: 40%;
     }
 }
