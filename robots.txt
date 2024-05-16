@@ -5,5 +5,6 @@ Allow: /contacts.html
 Allow: /history.html
 Allow: /naprovlenie.html
 Allow: /pasienty.html
-Disallow: /stryktyra.html
+Allow: /stryktyra.html
 Sitemap: https://makim228.github.io/PartizanskGB1/sitemap.xml
+HOST: https://makim228.github.io/PartizanskGB1/index.html
