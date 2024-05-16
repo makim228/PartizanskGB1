@@ -7,4 +7,3 @@ Allow: /naprovlenie.html
 Allow: /pasienty.html
 Disallow: /stryktyra.html
 Sitemap: https://makim228.github.io/PartizanskGB1/sitemap.xml
-Clean-param: p1[&p2&p3&p4&..&pn] [Путь к динамическим страницам]
